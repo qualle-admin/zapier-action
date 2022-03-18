@@ -1,0 +1,7 @@
+services:
+
+  zapier-action:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    environment:

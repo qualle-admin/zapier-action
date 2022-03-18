@@ -1,0 +1,9 @@
+name: 'GitHub Action for Zapier'
+author: 'Qualle'
+description: 'Wraps the zapier-platform-cli CLI to enable common commands.'
+branding:
+  icon: 'package'
+  color: 'gray-dark'
+runs:
+  using: 'docker'
+  image: 'docker://qualle-admin/zapier-action:latest'
