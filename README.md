@@ -1,3 +1,4 @@
+![Build And Deploy](https://github.com/qualle-admin/qualle-web/workflows/Build%20and%20Deploy/badge.svg)
 # GitHub Actions for Zapier
 
 This Action for [zapier-platform-cli](https://platform.zapier.com/) enables arbitrary actions with the `zapier` command-line client.
