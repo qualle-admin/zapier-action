@@ -18,10 +18,10 @@ RUN apt update && apt install -y jq adoptopenjdk-8-hotspot-jre git && apt autore
 RUN npm i -g npm@8.5.5
 RUN npm i -g zapier-platform-cli@11.3.2
 
-RUN chmod +x entrypoint.sh
-
 COPY LICENSE README.md /
 COPY "entrypoint.sh" "/entrypoint.sh"
+
+RUN chmod +x entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["--help"]
