@@ -20,6 +20,8 @@ RUN npm i -g zapier-platform-cli@11.3.2
 
 RUN npm i
 
+WORKDIR /
+
 COPY LICENSE README.md /
 COPY "package.json" "/package.json"
 COPY "entrypoint.sh" "/entrypoint.sh"
