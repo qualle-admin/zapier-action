@@ -4,14 +4,13 @@ This Action for [zapier-platform-cli](https://platform.zapier.com/) enables arbi
 
 ## Inputs
 
-* `args` - **Required**. This is the arguments you want to use for the `zapier-platform` cli
-
+- `args` - **Required**. This is the arguments you want to use for the `zapier-platform` cli
 
 ## Environment variables
 
-* `ZAPIER_DEPLOY_KEY` - **Required if ZAPIER_DEPLOY_KEY is not set**. The token to use for authentication. This token can be aquired through the `zapier login` command.
+- `ZAPIER_DEPLOY_KEY` - **Required if ZAPIER_DEPLOY_KEY is not set**. The token to use for authentication. This token can be aquired through the `zapier login` command.
 
-* `key` - **Optional**. To specify a specific project to use for all commands. Not required if you specify a project in your `.zapierrc` file.
+- `key` - **Optional**. To specify a specific project to use for all commands. Not required if you specify a project in your `.zapierrc` file.
 
 ## Example
 
@@ -63,7 +62,6 @@ jobs:
 ## License
 
 The Dockerfile and associated scripts and documentation in this project are released under the [MIT License](LICENSE).
-
 
 ### Recommendation
 

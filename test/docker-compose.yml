@@ -1,5 +1,4 @@
 services:
-
   zapier-action:
     build:
       context: ..
