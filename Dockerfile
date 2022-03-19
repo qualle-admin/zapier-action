@@ -23,7 +23,7 @@ WORKDIR /app
 COPY LICENSE README.md /app/
 COPY entrypoint.sh package.json /app/
 
-RUN npm i
+RUN cd app && npm i
 
 RUN chmod +x /app/entrypoint.sh
 
